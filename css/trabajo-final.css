@@ -47,7 +47,7 @@ main {
 section.home-1 {
   height: 500px;
   background-repeat: no-repeat;
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/peaky-blinders.jpg);
+  background-image: url(/Users/oliviacabello/Desktop/programacion/trabajo-final/imagenes/peaky-blinders.jpg);
   background-size: 100%;
   color: white;
   text-align: center;
@@ -127,3 +127,31 @@ nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
 nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
   text-decoration: underline rgb(218, 244, 0);
 }
+
+/* Css de pagina2 generos */
+
+section.generos-todos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 115px;
+ margin-right: 115px;
+}
+
+div.generos {
+  width: 27%;
+  height: 131px;
+  padding-top: 43px;
+  background-color: rgb(218, 244, 0);
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+div.generos p a.generos-link {
+  text-decoration: none;
+}
+
+div.generos p a.generos-link:hover {
+text-decoration: underline; color: black;}
