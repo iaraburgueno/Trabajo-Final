@@ -2,61 +2,112 @@
   box-sizing: border-box;
 }
 
-.main-header {
+header nav.menu {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+	background-color: white;
+  justify-content: space-between;
 }
 
-header nav {
-	background-color: white;
-	position: fixed;
-	width: 100%;
-	height: 100px;
-  	z-index: 9;
-}
-nav {
-  	overflow: hidden;
-}
-nav ul {
-  	margin: 0;
-  	padding: 0;
-  	text-align: center;
-}
-nav ul.ul-logo {
-  	float: left;
-}
-nav ul.ul-menu {
-  	float: right;
-}
-nav ul li {
+
+nav.menu ul li {
 	margin: 0;
-	padding: 15px 12px 0 12px;
-	float: left;
+	padding: 0px 12px 0 12px;
 	list-style-type: none;
-	font-size: 1.5rem;
-	height: 100px;
+	font-size: 17px;
 }
-nav ul li.logo {
-	background-image: url(imagenes/Free_Sample_By_Wix.jpeg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 250px;
+
+nav.menu ul.ul-menu-1 {
+	display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 0px;
 }
-nav ul.ul-menu {
-	margin-left:0;
-}
-nav ul li a {
+nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
 	text-decoration: none;
   color: black;
   font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
-nav ul li a:hover {
-	text-decoration: underline;
+
+nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
+	text-decoration: underline rgb(218, 244, 0);
 }
 
 main {
-  padding-top: 100px;
+  font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section.home-1 {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/peaky-blinders.jpg);
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+div.titulo {
+  padding-top: 113px;
+}
+
+h1 {
+  font-size: 55px;
+  text-decoration: underline rgb(218, 244, 0);
+}
+
+section.home-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 100px;
+  align-items: center;
+}
+
+div.populares {
+  padding: 40px;
+}
+
+div.mayor-puntaje {
+  padding: 40px;
+}
+
+div.al-aire {
+  padding: 40px;
+}
+
+footer nav.nombres-header-logo {
+  background-color: rgb(81, 83, 86);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+
+}
+nav.nombres-header-logo ul {
+  font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav.nombres-header-logo ul li {
+  padding: 0px 12px 0 10px;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
+	text-decoration: none;
+  color: white;
+  font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
+  text-decoration: underline rgb(218, 244, 0);
 }
