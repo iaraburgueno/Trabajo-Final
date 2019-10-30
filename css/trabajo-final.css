@@ -7,6 +7,7 @@ header nav.menu {
   flex-wrap: wrap;
 	background-color: white;
   justify-content: space-between;
+  margin-bottom: 8px
 }
 
 
@@ -26,7 +27,7 @@ nav.menu ul.ul-menu-1 {
 nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
 	text-decoration: none;
   color: black;
-  font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans";
   font-weight: bold;
 }
 
@@ -34,8 +35,13 @@ nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
 	text-decoration: underline rgb(218, 244, 0);
 }
 
+div.corte {
+  background-color: rgb(218, 244, 0);
+  height: 50px;
+}
+
 main {
-  font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans";
 }
 
 section.home-1 {
@@ -45,6 +51,9 @@ section.home-1 {
   background-size: 100%;
   color: white;
   text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 div.titulo {
@@ -59,10 +68,17 @@ h1 {
 section.home-2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  font-weight: bold;
-  margin-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bolder;
   align-items: center;
+  font-size: 20px;
+  text-decoration: underline rgb(218, 244, 0);
+}
+
+section.home-2 div{
+  margin-top: 20px;
+  height: 500px
 }
 
 div.populares {
@@ -86,7 +102,7 @@ footer nav.nombres-header-logo {
 
 }
 nav.nombres-header-logo ul {
-  font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans";
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -104,7 +120,7 @@ nav.nombres-header-logo ul li {
 nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
 	text-decoration: none;
   color: white;
-  font-family: GTWalsheimGQ, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans";
   font-weight: bold;
 }
 
