@@ -136,22 +136,29 @@ section.generos-todos {
   justify-content: space-between;
   margin-left: 115px;
  margin-right: 115px;
+ margin-top: 60px;
+
 }
 
 div.generos {
   width: 27%;
   height: 131px;
-  padding-top: 43px;
-  background-color: rgb(218, 244, 0);
+  padding-top: 32px;
+  background-color:none;
     margin-bottom: 30px;
     text-align: center;
     font-family: GTWalsheimGQ, "Josefin Sans";
     font-weight: bold;
+     border-style: solid;
+     border-color: rgb(218,244, 0);
+
 }
 
 div.generos p a.generos-link {
-  text-decoration: none;
+  text-decoration: underline rgb(218, 244, 0);
+  font-size: 30px;
+  color: black;
 }
 
-div.generos p a.generos-link:hover {
-text-decoration: underline; color: black;}
+div.generos:hover {
+background-color: rgb(218, 244, 0);}
