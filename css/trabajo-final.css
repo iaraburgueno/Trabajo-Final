@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* HOME */
 header nav.menu {
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +48,7 @@ main {
 section.home-1 {
   height: 500px;
   background-repeat: no-repeat;
-  background-image: url(/Users/oliviacabello/Desktop/programacion/trabajo-final/imagenes/peaky-blinders.jpg);
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/peaky-blinders.jpg);
   background-size: 100%;
   color: white;
   text-align: center;
@@ -128,22 +129,23 @@ nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
   text-decoration: underline rgb(218, 244, 0);
 }
 
-/* Css de pagina2 generos */
+/* GENEROS */
 
 section.generos-todos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 115px;
- margin-right: 115px;
- margin-top: 60px;
+  margin-right: 115px;
+  margin-top: 60px;
 
 }
 
-div.generos {
+section.generos-todos div {
   width: 27%;
   height: 131px;
   padding-top: 32px;
+<<<<<<< HEAD
   background-image: url(/Users/oliviacabello/Desktop/programacion/trabajo-final/imagenes/accion.jpg);
     margin-bottom: 30px;
     text-align: center;
@@ -152,13 +154,56 @@ div.generos {
      border-style: solid;
      border-color: rgb(218,244, 0);
 
+=======
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+>>>>>>> master
 }
 
-div.generos p a.generos-link {
-  text-decoration: underline rgb(218, 244, 0);
+
+section.generos-todos div p a.generos-link {
   font-size: 30px;
-  color: black;
+  text-decoration: none;
+  color: white;
 }
 
-div.generos:hover {
-background-color: rgb(218, 244, 0);}
+section.generos-todos div:hover {
+  text-decoration: underline black;
+}
+
+div.aventura {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/aventura.jpg);
+  background-size: 100%;
+}
+
+div.animacion {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/animacion.jpeg);
+  background-size: 100%;
+}
+
+div.comedia {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/comedia.jpg);
+  background-size: 100%;
+}
+
+div.crimen {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/crimen.jpg);
+  background-size: 100%;
+}
+
+div.documental {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/documental.jpg);
+  background-size: 100%;
+}
+
+div.drama {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/drama.jpg);
+  background-size: 100%;
+}
+
+div.familiares {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/familiares.jpg);
+  background-size: 100%;
+}
