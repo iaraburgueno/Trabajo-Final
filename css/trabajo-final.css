@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* HOME */
 header nav.menu {
   display: flex;
   flex-wrap: wrap;
@@ -128,15 +129,15 @@ nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
   text-decoration: underline rgb(218, 244, 0);
 }
 
-/* Css de pagina2 generos */
+/* GENEROS */
 
 section.generos-todos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 115px;
- margin-right: 115px;
- margin-top: 60px;
+  margin-right: 115px;
+  margin-top: 60px;
 
 }
 
@@ -146,7 +147,7 @@ section.generos-todos div {
   padding-top: 32px;
   margin-bottom: 30px;
   text-align: center;
-  font-family: GTWalsheimGQ, "Josefin Sans";
+  font-family: "Josefin Sans";
   font-weight: bold;
 }
 
