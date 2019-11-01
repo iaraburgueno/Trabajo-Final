@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+/* HEADER*/
+header nav.menu {
+  display: flex;
+  flex-wrap: wrap;
+	background-color: white;
+  justify-content: space-between;
+  margin-bottom: 8px
+}
+
+
+nav.menu ul li {
+	margin: 0;
+	padding: 0px 12px 0 12px;
+	list-style-type: none;
+	font-size: 17px;
+}
+
+nav.menu ul.ul-menu-1 {
+	display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 0px;
+}
+nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
+	text-decoration: none;
+  color: black;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
+	text-decoration: underline rgb(218, 244, 0);
+}
+
+main {
+  background-image:
+}
+
+div.corte {
+  background-color: rgb(218, 244, 0);
+  height: 50px;
+}
+
+/* BODY*/
+
+div.detalle-series {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+div.poster{
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+div.detalle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #222;
+  font-family:"Josefin Sans";
+  width:55%;
+  margin-left: 10px;
+  margin-top:17px;
+}
+
+div.detalle h1 {
+  font-family:"Josefin Sans"
+}
+
+div.poster-serie {
+width: 25%;
+}
+
+div img {
+  width: 100%;
+  margin-left: 66px;
+}
+
+button {
+      display: block;
+      width: 1500px;
+      height: 45%;
+      padding: 25px;
+      margin bottom: 40px;
+      color: black;
+      background-color: rgb(218 , 244, 0);
+      border-color: rgb(218 , 244, 0);
+      font-family: "Josefin Sans";
+      font-size: 24px;
+
+}
+
+div#carrousel-recomendaciones {
+  margin-top: 40px;
+}
+
+
+/* EVENTO DE CLICK BOTON*/
+.ocultarBoton {
+  display: none;
+}
+
+
+/* FOOTER*/
+
+footer nav.nombres-header-logo {
+  background-color: rgb(81, 83, 86);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 40px;
+
+}
+nav.nombres-header-logo ul {
+  font-family: "Josefin Sans";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav.nombres-header-logo ul li {
+  padding: 0px 12px 0 10px;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
+	text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
+  text-decoration: underline rgb(218, 244, 0);
+}
