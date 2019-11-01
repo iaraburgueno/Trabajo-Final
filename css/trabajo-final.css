@@ -36,13 +36,13 @@ nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
 	text-decoration: underline rgb(218, 244, 0);
 }
 
+main {
+  background-image:
+}
+
 div.corte {
   background-color: rgb(218, 244, 0);
   height: 50px;
-}
-
-main {
-  font-family: "Josefin Sans";
 }
 
 section.home-1 {
@@ -62,8 +62,8 @@ div.titulo {
 }
 
 h1 {
-  font-size: 55px;
-  text-decoration: underline rgb(218, 244, 0);
+  font-size: 50px;
+  font-family: "Permanent Marker"
 }
 
 section.home-2 {
@@ -75,6 +75,7 @@ section.home-2 {
   align-items: center;
   font-size: 20px;
   text-decoration: underline rgb(218, 244, 0);
+  font-family: "Josefin Sans";
 }
 
 section.home-2 div{
@@ -138,6 +139,7 @@ section.generos-todos {
   margin-left: 115px;
   margin-right: 115px;
   margin-top: 60px;
+  margin-bottom: 60px;
 
 }
 
@@ -147,8 +149,9 @@ section.generos-todos div {
   padding-top: 32px;
   margin-bottom: 30px;
   text-align: center;
-  font-family: "Josefin Sans";
+  font-family: "Permanent Marker";
   font-weight: bold;
+  border-radius: 20px;
 }
 
 
@@ -160,6 +163,11 @@ section.generos-todos div p a.generos-link {
 
 section.generos-todos div:hover {
   text-decoration: underline black;
+}
+
+div.accion {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/accion.jpg);
+  background-size: 100%;
 }
 
 div.aventura {
@@ -194,5 +202,55 @@ div.drama {
 
 div.familiares {
   background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/familiares.jpg);
+  background-size: 100%;
+}
+
+div.fantasia {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/fantasia.jpg);
+  background-size: 100%;
+}
+
+div.historia {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/historia.jpg);
+  background-size: 100%;
+}
+
+div.horror {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/horror.jpg);
+  background-size: 100%;
+}
+
+div.musica {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/musica.jpg);
+  background-size: 100%;
+}
+
+div.misterio {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/misterio.jpeg);
+  background-size: 100%;
+}
+
+div.romance {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/romance.jpg);
+  background-size: 100%;
+}
+
+div.ciencia-ficcion {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/ciencia-ficcion.jpg);
+  background-size: 100%;
+}
+
+div.occidentales {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/occidentales.jpg);
+  background-size: 100%;
+}
+
+div.guerra {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/guerra.jpg);
+  background-size: 100%;
+}
+
+div.thrillers {
+  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/thrillers.jpg);
   background-size: 100%;
 }
