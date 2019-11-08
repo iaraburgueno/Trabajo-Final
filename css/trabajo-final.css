@@ -93,8 +93,20 @@ h3.tituloCarrousel {
 
 .carrousel-populares {
   width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carrousel-mejor-puntaje {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carrousel-al-aire {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .uk-card-body>:last-child, .uk-card-footer>:last-child, .uk-card-header>:last-child {
