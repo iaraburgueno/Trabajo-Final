@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header nav.menu {
+  display: flex;
+  flex-wrap: wrap;
+	background-color: white;
+  justify-content: space-between;
+}
+
+
+nav.menu ul li {
+	margin: 0;
+	padding: 0px 12px 0 12px;
+	list-style-type: none;
+	font-size: 17px;
+}
+
+nav.menu ul.ul-menu-1 {
+	display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 0px;
+}
+nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
+	text-decoration: none;
+  color: black;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
+	text-decoration: underline rgb(218, 244, 0);
+}
+
+ul.ul-menu-1 {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+div.corte {
+  background-color: rgb(218, 244, 0);
+  height: 50px;
+}
+
+/* FIN DEL HEADER */
+
+/* FOOTER */
+
+footer nav.nombres-header-logo {
+  background-color: rgb(81, 83, 86);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+
+}
+nav.nombres-header-logo ul {
+  font-family: "Josefin Sans";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav.nombres-header-logo ul li {
+  padding: 0px 12px 0 10px;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
+	text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
+  text-decoration: underline rgb(218, 244, 0);
+}
+
+ul.ul-menu-2 {
+  margin-top: 20px;
+}
+
+/* FIN DEL FOOTER */
+
+
+
+/* div.titulo-genero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+div.carrousel-generos {
+  margin-bottom: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  margin-bottom: 80px;
+} */
