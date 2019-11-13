@@ -2,10 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
     <title></title>
       <link rel="stylesheet" href="css/trabajo-final.css">
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+      <script src="js/generos.js" charset="utf-8"></script>
+
+      <!-- UIkit CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/css/uikit.min.css" />
+
+      <!-- UIkit JS -->
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
+
   </head>
   <body>
     <div class="contenedor-2">
@@ -23,82 +33,71 @@
       </nav>
     </header>
     <div class="corte">
-
     </div>
+
+  <main class="generos">
   <section class="generos-todos">
-    <div class="accion">
-      <p> <a class="generos-link" href="series-por-genero.html">Acción</a>
-      </p>
-  </div>
-  <div class="aventura">
-    <p> <a class="generos-link" href="series-por-genero.html">Aventura</a>
+
+  <div class="aventura un-genero">
+    <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Adventure</a>
     </p>
 </div>
-<div class="animacion">
-  <p> <a class="generos-link" href="series-por-genero.html">Animación</a>
+<div class="animacion un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Animation</a>
   </p>
 </div>
-<div class="comedia">
-  <p> <a class="generos-link" href="series-por-genero.html">Comedia</a>
+<div class="comedia un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Comedy</a>
   </p>
 </div>
-<div class="crimen">
-  <p> <a class="generos-link" href="series-por-genero.html">Crimen</a>
+<div class="crimen un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Crime</a>
   </p>
 </div>
-<div class="documental">
-  <p> <a class="generos-link" href="series-por-genero.html">Documentales</a>
+<div class="documental un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Documentary</a>
   </p>
 </div>
-<div class="drama">
-  <p> <a class="generos-link" href="series-por-genero.html">Drama</a>
+<div class="drama un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Drama</a>
   </p>
 </div>
-<div class="familiares">
-  <p> <a class="generos-link" href="series-por-genero.html">Familiares</a>
+<div class="familiares un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Familiy</a>
   </p>
 </div>
-<div class="fantasia">
-  <p> <a class="generos-link" href="series-por-genero.html">Fantasía</a>
+
+
+<div class="misterio un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Mystery</a>
   </p>
 </div>
-<div class="historia">
-  <p> <a class="generos-link" href="series-por-genero.html">Historia</a>
+<div class="romance un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Soap</a>
   </p>
 </div>
-<div class="horror">
-  <p> <a class="generos-link" href="series-por-genero.html">Horror</a>
+<div class="ciencia-ficcion un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Sci-Fi</a>
   </p>
 </div>
-<div class="musica">
-  <p> <a class="generos-link" href="series-por-genero.html">Música</a>
+<div class="occidentales un-genero">
+  <p> <a class="generos-link" href="series-por-genero.html?idGenero=">Western</a>
   </p>
 </div>
-<div class="misterio">
-  <p> <a class="generos-link" href="series-por-genero.html">Misterio</a>
-  </p>
+<div class="guerra un-genero uk-animation-toggle" tabindex="0">
+  <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-small">
+  <p class="uk-text-center"> <a class="generos-link" href="series-por-genero.html?idGenero=">War</a> </p>
 </div>
-<div class="romance">
-  <p> <a class="generos-link" href="series-por-genero.html">Romance</a>
-  </p>
 </div>
-<div class="ciencia-ficcion">
-  <p> <a class="generos-link" href="series-por-genero.html">Ciencia Ficción</a>
-  </p>
-</div>
-<div class="occidentales">
-  <p> <a class="generos-link" href="series-por-genero.html">Occidentales</a>
-  </p>
-</div>
-<div class="guerra">
-  <p> <a class="generos-link" href="series-por-genero.html">Guerra</a>
-  </p>
-</div>
-<div class="thrillers">
-  <p> <a class="generos-link" href="series-por-genero.html">Thrillers</a>
-  </p>
-</div>
+
+<div class="uk-animation-toggle" tabindex="0">
+        <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-small">
+            <p class="uk-text-center">Top Small</p>
+        </div>
+    </div>
+
     </section>
+    </main>
       <footer>
           <nav class="nombres-header-logo">
             <ul class="ul-menu-2">

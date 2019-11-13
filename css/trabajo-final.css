@@ -33,7 +33,7 @@ nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
 }
 
 nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
-	text-decoration: underline rgb(218, 244, 0);
+	color: red;
 }
 
 ul.ul-menu-1 {
@@ -41,26 +41,20 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
-div.corte {
-  background-color: rgb(218, 244, 0);
-  height: 50px;
-}
-
 /* FIN DEL HEADER */
 
-main {
-
+main.index {
 }
 
 section.home-1 {
+  text-align: center;
+}
+
+div.foto-index {
   height: 500px;
   background-repeat: no-repeat;
   background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/peaky-blinders.jpg);
   background-size: 100%;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 div.titulo {
@@ -74,15 +68,22 @@ h1.titulo {
   margin-top: 55px;
 }
 
+section.info {
+  background-color: rgb(242, 243, 244);
+  height: 500px;
+}
+
 section.home-2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   font-weight: bolder;
-  align-items: center;
   font-size: 20px;
   font-family: "Josefin Sans";
+  padding-bottom: 150px;
+  padding-top: 30px;
+  background-color: rgb(34, 34, 35);
 }
 
 h3.tituloCarrousel {
@@ -93,8 +94,20 @@ h3.tituloCarrousel {
 
 .carrousel-populares {
   width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carrousel-mejor-puntaje {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carrousel-al-aire {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .uk-card-body>:last-child, .uk-card-footer>:last-child, .uk-card-header>:last-child {
@@ -103,43 +116,77 @@ h3.tituloCarrousel {
 
 .uk-card-default .uk-card-title {
   font-size: 20px;
+  font-family: "Josefin Sans"
 }
 
 .uk-card-media-top img {
   width: 100%;
 }
 
+.uk-card-body {
+  background-color: white;
+}
+
+ul.uk-slider-nav li.uk-active a {
+  background-color: white
+}
+
 div.populares {
-  padding: 40px;
-  margin-top: 140px;
+  margin-top: 30px;
+  margin-left: 99px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+p.populares {
+  margin: 0px 0 -32px 0;
+  color: rgb(92, 74, 241);
 }
 
 h2.populares {
   font-family: "Josefin Sans";
-  font-weight: bolder;
-  text-decoration: underline rgb(218, 244, 0);
+  font-weight: 700;
+  color: white;
 }
 
 div.mayor-puntaje {
-  padding: 40px;
-  margin-top: 140px;
+  margin-top: 30px;
+  margin-left: 99px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p.mayor-puntaje {
+  margin: 0px 0 -32px 0;
+  color: rgb(92, 74, 241);
 }
 
 h2.mayor-puntaje {
   font-family: "Josefin Sans";
-  font-weight: bolder;
-  text-decoration: underline rgb(218, 244, 0);
+  font-weight: 700;
+  color: white;
 }
 
 div.al-aire {
-  padding: 40px;
-  margin-top: 140px;
+  margin-top: 30px;
+  margin-left: 99px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p.al-aire {
+  margin: 0px 0 -32px 0;
+  color: rgb(92, 74, 241);
 }
 
 h2.al-aire {
   font-family: "Josefin Sans";
-  font-weight: bolder;
-  text-decoration: underline rgb(218, 244, 0);
+  font-weight: 700;
+  color: white;
 }
 
 /* FOOTER */
@@ -188,125 +235,20 @@ section.generos-todos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 160px;
-  margin-right: 160px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-
+  background-color: rgb(34, 34, 35);
+  padding-top: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 160px;
 }
 
-section.generos-todos div {
-  width: 26%;
-  height: 151px;
-  padding-top: 32px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-family: "Permanent Marker";
-  font-weight: bold;
-  border-radius: 20px;
+section.generos-todos div.generos div {
+  width: 230px;
+  height: 305px;
+  margin-bottom: 20px;
+  margin-right: 17px;
 }
 
-
-section.generos-todos div p a.generos-link {
-  font-size: 30px;
-  text-decoration: none;
-  color: white;
-}
-
-section.generos-todos div:hover p a {
-  text-decoration: underline rgb(218, 244, 0);
-}
-
-div.accion {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/accion.jpg);
-  background-size: 100%;
-}
-
-div.aventura {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/aventura.jpg);
-  background-size: 100%;
-}
-
-div.animacion {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/animacion.jpeg);
-  background-size: 100%;
-}
-
-div.comedia {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/comedia.jpg);
-  background-size: 100%;
-}
-
-div.crimen {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/crimen.jpg);
-  background-size: 100%;
-}
-
-div.documental {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/documental.jpg);
-  background-size: 100%;
-}
-
-div.drama {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/drama.jpg);
-  background-size: 100%;
-}
-
-div.familiares {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/familiares.jpg);
-  background-size: 100%;
-}
-
-div.fantasia {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/fantasia.jpg);
-  background-size: 100%;
-}
-
-div.historia {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/historia.jpg);
-  background-size: 100%;
-}
-
-div.horror {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/horror.jpg);
-  background-size: 100%;
-}
-
-div.musica {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/musica.jpg);
-  background-size: 100%;
-}
-
-div.misterio {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/misterio.jpeg);
-  background-size: 100%;
-}
-
-div.romance {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/romance.jpg);
-  background-size: 100%;
-}
-
-div.ciencia-ficcion {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/ciencia-ficcion.jpg);
-  background-size: 100%;
-}
-
-div.occidentales {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/occidentales.jpg);
-  background-size: 100%;
-}
-
-div.guerra {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/guerra.jpg);
-  background-size: 100%;
-}
-
-div.thrillers {
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/thrillers.jpg);
-  background-size: 100%;
-}
-
-body {
-  margin: inherit;
+p.uk-text-center {
+  margin-top: 0px;
 }
