@@ -1,139 +1,136 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
 
-    <title></title>
-    <link rel="stylesheet" href="css/trabajo-final.css">
-    <script src="js/index.js" charset="utf-8"></script>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/css/uikit.min.css" />
+  <title></title>
+  <link rel="stylesheet" href="css/trabajo-final.css">
+  <script src="js/index.js" charset="utf-8"></script>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/css/uikit.min.css" />
 
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="contenedor">
-      <header>
-        <nav class="menu">
-          <ul class="ul-menu-1">
-            <li class="li-menu-1"><a class="color-green" href="index.html">Home</a></li>
-            <li class="li-menu-1"><a class="color-green" href="generos.html">Generos</a></li>
-            <li class="li-menu-1"><a class="color-green" href="Contacto">Contacto</a></li>
-            <li class="li-menu-1"><a class="color-green" href="Suscríbete">Suscríbete</a></li>
-          </ul>
-          <ul class="ul-menu-1">
-            <li class="li-menu-1"><a class="color-green" href="Mis favoritos">Mis favoritos</a></li>
-          </ul>
-        </nav>
-      </header>
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
-      <main class="index">
-        <section class="home-1">
-          <div class="foto-index">
-
-          </div>
-        </section>
-
-        <section class="info">
-
-        </section>
-
-        <section class="home-2">
-          <div class="populares">
-            <p class="populares"> SERIES </p>
-            <h2 class="populares"> Most popular </h2>
-          </div>
-          <div uk-slider="left: true">
-
-    <div class="uk-position-relative uk-visible-toggle uk-light carrousel-populares" tabindex="-1">
-
-        <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
-
+</head>
+<body>
+  <div class="contenedor">
+    <header>
+      <nav class="menu">
+        <ul class="ul-menu-1">
+          <li class="li-menu-1"><a class="color-green" href="index.html">Home</a></li>
+          <li class="li-menu-1"><a class="color-green" href="generos1.html">Generos</a></li>
+          <li class="li-menu-1"><a class="color-green" href="Contacto">Contacto</a></li>
+          <li class="li-menu-1"><a class="color-green" href="Suscríbete">Suscríbete</a></li>
         </ul>
-
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-    </div>
-
-    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-
-</div>
-          <div class="mayor-puntaje">
-            <p class="mayor-puntaje"> SERIES </p>
-            <h2 class="mayor-puntaje"> Top rated </h2>
-          </div>
-          <div uk-slider="left: true">
-
-    <div class="uk-position-relative uk-visible-toggle uk-light carrousel-mejor-puntaje" tabindex="-1">
-
-        <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
-
+        <ul class="ul-menu-1">
+          <li class="li-menu-1"><a class="color-green" href="Mis favoritos">Mis favoritos</a></li>
         </ul>
+      </nav>
+    </header>
 
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    <main class="index">
+      <section class="home-1">
+        <div class="foto-index">
+          <form class="buscador" action="resultados-buscador1.html" method='get'>
+              <input class="buscador" type="text" class="white" name="buscador" value="">
+              <input type="submit" class="buscador-lupa" name="" value="">
+              <img class="imag" src="imagenes/Lupa.png" alt="">
+        </div>
+      </section>
 
-    </div>
+      <section class="info">
 
-    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+      </section>
 
-</div>
-          <div class="al-aire">
-            <p class="al-aire"> SERIES </p>
-            <h2 class="al-aire"> Airing today </h2>
-          </div>
-          <div uk-slider="left: true">
+      <section class="home-2">
+        <div class="populares">
+          <p class="populares"> SERIES </p>
+          <h2 class="populares"> Most popular </h2>
+        </div>
+        <div uk-slider="left: true">
 
-    <div class="uk-position-relative uk-visible-toggle uk-light carrousel-al-aire" tabindex="-1">
+          <div class="uk-position-relative uk-visible-toggle uk-light carrousel-populares" tabindex="-1">
 
-        <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+            <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
 
-        </ul>
-
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-    </div>
-
-    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-
-</div>
-        </section>
-      </main>
-
-
-
-
-      <footer>
-          <nav class="nombres-header-logo">
-            <ul class="ul-menu-2">
-                <li class="li-menu-2"><a class="color-green" href="Home">Home</a></li>
-                <li class="li-menu-2"><a class="color-green" href="Generos">Generos</a></li>
-                <li class="li-menu-2"><a class="color-green" href="Contacto">Contacto</a></li>
-                <li class="li-menu-2"><a class="color-green" href="Suscríbete">Suscríbete</a></li>
-            </ul>
-            <ul class="nombres">
-                <li class="nombres"> Lucila Cabello </li>
-                <li class="nombres"> Iara Burgueño </li>
             </ul>
 
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
-          </nav>
+          </div>
 
-      </footer>
+          <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
-    </div>
+        </div>
+        <div class="mayor-puntaje">
+          <p class="mayor-puntaje"> SERIES </p>
+          <h2 class="mayor-puntaje"> Top rated </h2>
+        </div>
+        <div uk-slider="left: true">
+
+          <div class="uk-position-relative uk-visible-toggle uk-light carrousel-mejor-puntaje" tabindex="-1">
+
+            <ul class="uk-slider-items uk-child-width-1-4@s uk-grid"></ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+          </div>
+
+          <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+        <div class="al-aire">
+          <p class="al-aire"> SERIES </p>
+          <h2 class="al-aire"> Airing today </h2>
+        </div>
+        <div uk-slider="left: true">
+
+          <div class="uk-position-relative uk-visible-toggle uk-light carrousel-al-aire" tabindex="-1">
+
+            <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+          </div>
+
+          <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+      </section>
+    </main>
 
 
-  </body>
+
+
+    <footer>
+      <nav class="nombres-header-logo">
+        <ul class="ul-menu-2">
+          <li class="li-menu-2"><a class="color-green" href="Home">Home</a></li>
+          <li class="li-menu-2"><a class="color-green" href="Generos">Generos</a></li>
+          <li class="li-menu-2"><a class="color-green" href="Contacto">Contacto</a></li>
+          <li class="li-menu-2"><a class="color-green" href="Suscríbete">Suscríbete</a></li>
+        </ul>
+        <ul class="nombres">
+          <li class="nombres"> Lucila Cabello </li>
+          <li class="nombres"> Iara Burgueño </li>
+        </ul>
+
+
+      </nav>
+
+    </footer>
+
+  </div>
+
+
+</body>
 </html>

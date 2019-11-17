@@ -75,7 +75,7 @@ section.info {
 
 section.home-2 {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   justify-content: center;
   font-weight: bolder;
@@ -231,6 +231,27 @@ ul.ul-menu-2 {
 }
 /* GENEROS */
 
+section.generos-info {
+  background-color: black;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.nombre-serie p {
+  font-family: "Josefin Sans";
+  font-size: 25px;
+  color: rgb(92, 74, 241);
+}
+
+div.nombre-generos h1 {
+  font-family: "Josefin Sans";
+  font-size: 100px;
+  color: white;
+}
+
 section.generos-todos {
   display: flex;
   flex-wrap: wrap;
@@ -247,8 +268,102 @@ section.generos-todos div.generos div {
   height: 305px;
   margin-bottom: 20px;
   margin-right: 17px;
+  font-family: "Josefin Sans";
+  color: white;
 }
 
-p.uk-text-center {
-  margin-top: 0px;
+.uk-text-center {
+  margin-top: 50%;
+}
+
+div.aventura {
+  background-image: url('../imagenes/aventura.jpg');
+  background-size: cover;
+}
+
+div.animacion {
+  background-image: url('../imagenes/animacion.jpg');
+  background-size: cover;
+}
+
+div.comedia {
+  background-image: url('../imagenes/comedia.jpg');
+  background-size: 100%;
+}
+
+div.crimen {
+  background-image: url('../imagenes/crimen.jpg');
+  background-size: 100%;
+}
+
+div.documental {
+  background-image: url('../imagenes/documental.jpg');
+  background-size: 100%;
+}
+
+div.drama {
+  background-image: url('../imagenes/drama.jpg');
+  background-size: 100%;
+}
+
+div.familiares {
+  background-image: url('../imagenes/familiares.jpg');
+  background-size: 100%;
+}
+
+div.misterio {
+  background-image: url('../imagenes/misterio.jpg');
+  background-size: 100%;
+}
+
+div.romance {
+  background-image: url('../imagenes/romance.jpeg');
+  background-size: 100%;
+}
+
+div.ciencia-ficcion {
+  background-image: url('../imagenes/ciencia-ficcion.jpg');
+  background-size: cover;
+}
+
+div.occidentales {
+  background-image: url('../imagenes/occidentales.jpg');
+  background-size: 100%;
+}
+
+div.guerra {
+  background-image: url('../imagenes/guerra.jpg');
+  background-size: 100%;
+}
+
+p.tamano-letra {
+  font-size: 20px!important;
+}
+
+/*BUSCADOR*/
+
+.buscador-lupa {
+  display: none;
+}
+
+.imag{
+  width: 40px;
+  position: absolute;
+  top: 180px;
+  right:10px;
+}
+
+form.buscador {
+  padding-top: 170px;
+  width: 500px;
+  margin: 0 auto;
+  font-family: "Josefin Sans";
+  position:relative;
+}
+
+input.buscador {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  opacity: 0.7;
 }

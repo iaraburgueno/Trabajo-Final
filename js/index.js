@@ -13,7 +13,7 @@ window.onload = function() {
      <li>
          <div class="uk-card uk-card-default">
              <div class="uk-card-media-top">
-                 <img style="height:390px!important; width: auto" src=https://image.tmdb.org/t/p/original/`+ series[i].poster_path +` alt="">
+               <a href=detalle-serie.html?idSerie=`+ series[i].id +`><img src=https://image.tmdb.org/t/p/original/`+ series[i].poster_path +` alt=""></a>
              </div>
              <div class="uk-card-body">
                  <h3 class="uk-card-title tituloCarrousel">` + series[i].name + `</h3>
@@ -36,19 +36,19 @@ window.onload = function() {
 
    for (var i = 0; i < 6; i++) {
 
-     document.querySelector(".carrousel-mejor-puntaje ul").innerHTML += `
-     <li>
+     document.querySelector(".carrousel-mejor-puntaje ul").innerHTML +=
+     `<li>
          <div class="uk-card uk-card-default">
              <div class="uk-card-media-top">
-                 <img style="height:390px!important; width: auto" src=https://image.tmdb.org/t/p/original/`+ series[i].poster_path +` alt="">
+                 <a href=detalle-serie.html?idSerie=`+ series[i].id+`><img src='https://image.tmdb.org/t/p/original/`+ series[i].poster_path +`' alt=""></a>
              </div>
              <div class="uk-card-body">
                  <h3 class="uk-card-title tituloCarrousel">` + series[i].name + `</h3>
                  <p>Puntaje: `+ series[i].vote_average +`</p>
              </div>
          </div>
-     </li>
-     `
+
+     </li>`
    }
 
   })
@@ -67,7 +67,7 @@ window.onload = function() {
      <li>
          <div class="uk-card uk-card-default">
              <div class="uk-card-media-top">
-                 <img style="height:390px!important; width: auto" src=https://image.tmdb.org/t/p/original/`+ series[i].poster_path +` alt="">
+              <a href=detalle-serie.html?idSerie=`+ series[i].id+`><img src=https://image.tmdb.org/t/p/original/`+ series[i].poster_path +` alt=""></a>
              </div>
              <div class="uk-card-body">
                  <h3 class="uk-card-title tituloCarrousel">` + series[i].name + `</h3>

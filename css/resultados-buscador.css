@@ -2,45 +2,66 @@
   box-sizing: border-box;
 }
 
-/* HEADER*/
-header nav.menu {
-  display: flex;
-  flex-wrap: wrap;
-	background-color: white;
-  justify-content: space-between;
-  margin-bottom: 8px
-}
-
-
-nav.menu ul li {
-	margin: 0;
-	padding: 0px 12px 0 12px;
-	list-style-type: none;
-	font-size: 17px;
-}
-
-nav.menu ul.ul-menu-1 {
-	display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 0px;
-}
-nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
-	text-decoration: none;
-  color: black;
-  font-family: "Josefin Sans";
-  font-weight: bold;
-}
-
-nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
-	text-decoration: underline rgb(218, 244, 0);
+body {
+  margin: 0;
 }
 
 main {
-  background-image:
+  font-family: "Josefin Sans";
+
 }
 
-div.corte {
-  background-color: rgb(218, 244, 0);
-  height: 50px;
+section.seriestodas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  background-color: rgb(34, 34, 35);
+  color: white;
+}
+
+div.titulo-buscado {
+  background-color: black;
+  color: white;
+
+}
+
+div.serie-buscador {
+  width: 18%;
+  height: 45%;
+  color: white;
+  margin-bottom: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+div.serie-imagen {
+  position: relative;
+}
+
+div.serie-imagen h5{
+  position: absolute;
+  top: 84%;
+  left: 10%
+}
+
+div.serie-imagen h6{
+  position: absolute;
+  top: 88%;
+  left: 10%;
+
+}
+
+div.titulo-buscador {
+  background-color: black;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
