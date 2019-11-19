@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+main.buscador {
+  font-family: "Josefin Sans";
+}
+
+
+
+section.formulario {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer nav.nombres-header-logo {
+  background-color: rgb(81, 83, 86);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+
+}
+nav.nombres-header-logo ul {
+  font-family: "Josefin Sans";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav.nombres-header-logo ul li {
+  padding: 0px 12px 0 10px;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
+	text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
+  text-decoration: underline rgb(92, 74, 241);
+}
+
+ul.ul-menu-2 {
+  margin-top: 20px;
+}
+
+/* FIN DEL FOOTER*/
