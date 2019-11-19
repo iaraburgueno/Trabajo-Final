@@ -3,45 +3,6 @@
 }
 
 /* HOME */
-/* HEADER */
-header nav.menu {
-  display: flex;
-  flex-wrap: wrap;
-	background-color: white;
-  justify-content: space-between;
-}
-
-
-nav.menu ul li {
-	margin: 0;
-	padding: 0px 12px 0 12px;
-	list-style-type: none;
-	font-size: 17px;
-}
-
-nav.menu ul.ul-menu-1 {
-	display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 0px;
-}
-nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
-	text-decoration: none;
-  color: black;
-  font-family: "Josefin Sans";
-  font-weight: bold;
-}
-
-nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
-	color: red;
-}
-
-ul.ul-menu-1 {
-margin-top: 20px;
-margin-bottom: 20px;
-}
-
-/* FIN DEL HEADER */
 
 main.index {
 }
@@ -53,7 +14,7 @@ section.home-1 {
 div.foto-index {
   height: 500px;
   background-repeat: no-repeat;
-  background-image: url(/Users/iaraburgueno/Desktop/trabajo-final/imagenes/peaky-blinders.jpg);
+  background-color: rgb(242, 243, 244);
   background-size: 100%;
 }
 
@@ -66,11 +27,6 @@ h1.titulo {
   font-family: "Permanent Marker";
   color: white;
   margin-top: 55px;
-}
-
-section.info {
-  background-color: rgb(242, 243, 244);
-  height: 500px;
 }
 
 section.home-2 {
@@ -223,12 +179,15 @@ nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
 }
 
 nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
-  text-decoration: underline rgb(218, 244, 0);
+  text-decoration: underline rgb(92, 74, 241);
 }
 
 ul.ul-menu-2 {
   margin-top: 20px;
 }
+
+/* FIN DEL FOOTER*/
+
 /* GENEROS */
 
 section.generos-info {
@@ -266,7 +225,7 @@ section.generos-todos {
 section.generos-todos div.generos div {
   width: 230px;
   height: 305px;
-  margin-bottom: 20px;
+  margin-bottom: 38px;
   margin-right: 17px;
   font-family: "Josefin Sans";
   color: white;
@@ -349,12 +308,12 @@ p.tamano-letra {
 .imag{
   width: 40px;
   position: absolute;
-  top: 180px;
+  top: 257px;
   right:10px;
 }
 
 form.buscador {
-  padding-top: 170px;
+  padding-top: 250px;
   width: 500px;
   margin: 0 auto;
   font-family: "Josefin Sans";
@@ -366,4 +325,40 @@ input.buscador {
   height: 50px;
   border-radius: 20px;
   opacity: 0.7;
+}
+
+div.titulo1 h1{
+  font-family: "Josefin Sans";
+  color: white;
+}
+
+/* INFO DEL HOME */
+
+section.info {
+  background-color: black;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Josefin Sans";
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+div.info-toda {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.info1 {
+  color: white;
+  font-size: 20px;
+}
+
+div.info2 {
+ color: white;
+ font-size: 20px;
 }

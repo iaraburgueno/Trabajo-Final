@@ -15,27 +15,25 @@
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
   <div class="contenedor">
-    <header>
-      <nav class="menu">
-        <ul class="ul-menu-1">
-          <li class="li-menu-1"><a class="color-green" href="index.html">Home</a></li>
-          <li class="li-menu-1"><a class="color-green" href="generos1.html">Generos</a></li>
-          <li class="li-menu-1"><a class="color-green" href="Contacto">Contacto</a></li>
-          <li class="li-menu-1"><a class="color-green" href="Suscríbete">Suscríbete</a></li>
-        </ul>
-        <ul class="ul-menu-1">
-          <li class="li-menu-1"><a class="color-green" href="Mis favoritos">Mis favoritos</a></li>
-        </ul>
-      </nav>
-    </header>
 
     <main class="index">
       <section class="home-1">
         <div class="foto-index">
-          <form class="buscador" action="resultados-buscador1.html" method='get'>
+          <div class="titulo1">
+            <h1> Look for your series </h1>
+          </div>
+          <form class="buscador" action="resultados-buscador.html" method='get'>
               <input class="buscador" type="text" class="white" name="buscador" value="">
               <input type="submit" class="buscador-lupa" name="" value="">
               <img class="imag" src="imagenes/Lupa.png" alt="">
@@ -43,6 +41,40 @@
       </section>
 
       <section class="info">
+        <div class="info-toda">
+         <div class="info1">
+           <p> The most popular series </p>
+         </div>
+         <div class="info2">
+           <p> according to TMDB</p>
+         </div>
+         <div class="boton-desliza">
+           <a href="#my-id" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
+         </div>
+        </div>
+        <div class="info-toda">
+         <div class="info1">
+           <p> The most rated series</p>
+         </div>
+         <div class="info2">
+           <p> according to TMDB </p>
+         </div>
+         <div class="boton-desliza">
+           <a href="#my-id" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
+         </div>
+        </div>
+        <div class="info-toda">
+         <div class="info1">
+           <p>  </p>
+         </div>
+         <div class="info2">
+           <p> according to TMDB </p>
+         </div>
+         <div class="boton-desliza">
+           <a href="#my-id" uk-scroll><button type="button" class="btn btn-light">The series airing today</button></a>
+         </div>
+        </div>
+
 
       </section>
 
@@ -114,10 +146,10 @@
     <footer>
       <nav class="nombres-header-logo">
         <ul class="ul-menu-2">
-          <li class="li-menu-2"><a class="color-green" href="Home">Home</a></li>
-          <li class="li-menu-2"><a class="color-green" href="Generos">Generos</a></li>
-          <li class="li-menu-2"><a class="color-green" href="Contacto">Contacto</a></li>
-          <li class="li-menu-2"><a class="color-green" href="Suscríbete">Suscríbete</a></li>
+          <li class="li-menu-2"><a class="color-green" href="index.html">Home</a></li>
+          <li class="li-menu-2"><a class="color-green" href="generos.html">Genres</a></li>
+          <li class="li-menu-2"><a class="color-green" href="buscador-avanzado.html">Smart searcher</a></li>
+          <li class="li-menu-2"><a class="color-green" href="favoritos.html">Favourites</a></li>
         </ul>
         <ul class="nombres">
           <li class="nombres"> Lucila Cabello </li>

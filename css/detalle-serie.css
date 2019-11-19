@@ -2,39 +2,6 @@
   box-sizing: border-box;
 }
 
-/* HEADER*/
-header nav.menu {
-  display: flex;
-  flex-wrap: wrap;
-	background-color: white;
-  justify-content: space-between;
-  margin-bottom: 8px
-}
-
-
-nav.menu ul li {
-	margin: 0;
-	padding: 0px 12px 0 12px;
-	list-style-type: none;
-	font-size: 17px;
-}
-
-nav.menu ul.ul-menu-1 {
-	display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 0px;
-}
-nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green {
-	text-decoration: none;
-  color: black;
-  font-family: "Josefin Sans";
-  font-weight: bold;
-}
-
-nav.menu ul.ul-menu-1 li.li-menu-1 a.color-green:hover {
-	text-decoration: underline rgb(218, 244, 0);
-}
 
 main {
   background-image:
@@ -98,7 +65,7 @@ div#carrousel-recomendaciones {
 }
 
 
-/* FOOTER*/
+/* FOOTER */
 
 footer nav.nombres-header-logo {
   background-color: rgb(81, 83, 86);
@@ -106,7 +73,6 @@ footer nav.nombres-header-logo {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 14px;
-  margin-top: 40px;
 
 }
 nav.nombres-header-logo ul {
@@ -133,8 +99,21 @@ nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
 }
 
 nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
-  text-decoration: underline rgb(218, 244, 0);
+  text-decoration: underline rgb(92, 74, 241);
 }
+
+ul.ul-menu-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul.nombres {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* FIN DEL FOOTER*/
+
 
 
 button.boton-favoritos {

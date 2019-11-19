@@ -6,18 +6,15 @@ body {
   margin: 0;
 }
 
-main {
-  font-family: "Josefin Sans";
-
-}
 
 section.seriestodas {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-top: 50px;
+  padding-bottom: 100px;
   background-color: rgb(34, 34, 35);
   color: white;
 }
@@ -25,43 +22,81 @@ section.seriestodas {
 div.titulo-buscado {
   background-color: black;
   color: white;
+  display: flex;
 
 }
 
-div.serie-buscador {
-  width: 18%;
-  height: 45%;
+section.seriestodas div.serie-buscador div.serie-info {
+  width: 230px;
+  height: 305px;
+  margin-bottom: 20px;
+  margin-right: 17px;
+}
+
+h5.serie-info {
+  font-family: "Josefin Sans";
+
+}
+
+h1.titulo-buscado {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  font-family: "Josefin Sans";
   color: white;
-  margin-bottom: 25px;
-}
-
-img {
-  width: 100%;
 }
 
 div.serie-imagen {
-  position: relative;
-}
-
-div.serie-imagen h5{
-  position: absolute;
-  top: 84%;
-  left: 10%
-}
-
-div.serie-imagen h6{
-  position: absolute;
-  top: 88%;
-  left: 10%;
 
 }
 
-div.titulo-buscador {
-  background-color: black;
+
+
+/* FOOTER */
+
+footer nav.nombres-header-logo {
+  background-color: rgb(81, 83, 86);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+
+}
+nav.nombres-header-logo ul {
+  font-family: "Josefin Sans";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  list-style-type: none;
+  padding: 0px;
 }
 
-h1 {
-  margin: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
+nav.nombres-header-logo ul li {
+  padding: 0px 12px 0 10px;
 }
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
+	text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
+  text-decoration: underline rgb(92, 74, 241);
+}
+
+ul.ul-menu-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul.nombres {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* FIN DEL FOOTER*/
