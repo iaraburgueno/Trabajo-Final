@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+/* GENEROS */
+
+section.generos-info {
+  background-color: black;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.nombre-serie p {
+  font-family: "Josefin Sans";
+  font-size: 25px;
+color: white;
+}
+
+div.nombre-favoritas h1 {
+  font-family: "Josefin Sans";
+  font-size: 100px;
+  color: rgb(92, 74, 241);
+}
+
+section.generos-todos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 35);
+  padding-top: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 160px;
+}
+
+section.generos-todos div.generos div {
+  width: 230px;
+  height: 305px;
+  margin-bottom: 38px;
+  margin-right: 17px;
+  font-family: "Josefin Sans";
+  color: white;
+}
+
+.uk-text-center {
+  margin-top: 50%;
+}
+
+div.aventura {
+  background-image: url('../imagenes/aventura.jpg');
+  background-size: cover;
+}
+
+div.animacion {
+  background-image: url('../imagenes/animacion.jpg');
+  background-size: cover;
+}
+
+div.comedia {
+  background-image: url('../imagenes/comedia.jpg');
+  background-size: 100%;
+}
+
+div.crimen {
+  background-image: url('../imagenes/crimen.jpg');
+  background-size: 100%;
+}
+
+div.documental {
+  background-image: url('../imagenes/documental.jpg');
+  background-size: 100%;
+}
+
+div.drama {
+  background-image: url('../imagenes/drama.jpg');
+  background-size: 100%;
+}
+
+div.familiares {
+  background-image: url('../imagenes/familiares.jpg');
+  background-size: 100%;
+}
+
+div.misterio {
+  background-image: url('../imagenes/misterio.jpg');
+  background-size: 100%;
+}
+
+div.romance {
+  background-image: url('../imagenes/romance.jpeg');
+  background-size: 100%;
+}
+
+div.ciencia-ficcion {
+  background-image: url('../imagenes/ciencia-ficcion.jpg');
+  background-size: cover;
+}
+
+div.occidentales {
+  background-image: url('../imagenes/occidentales.jpg');
+  background-size: 100%;
+}
+
+div.guerra {
+  background-image: url('../imagenes/guerra.jpg');
+  background-size: 100%;
+}
+
+p.tamano-letra {
+  font-size: 20px!important;
+}
