@@ -51,11 +51,14 @@ if (seriesFavoritas.includes(codigoDeSerie)) {
       let estreno= informacion.first_air_date;
 
 
+
+
       document.querySelector("h1").innerHTML += name;
       document.querySelector("p.Idioma").innerHTML+= "<span style='text-transform:uppercase'>" + idioma + "</span>";
       document.querySelector("p.Sinopsis").innerHTML+= sinopsis;
       document.querySelector(".poster-serie").innerHTML += "<img src='http://image.tmdb.org/t/p/original" + informacion.poster_path + "'>"
       document.querySelector("p.Estreno").innerHTML += estreno
+
 //agregar backdrop path
 
     })
@@ -71,7 +74,6 @@ if (seriesFavoritas.includes(codigoDeSerie)) {
       for(let i = 0; i < informacion.results.length; i++) {
         console.log(informacion.results[i].id);
         listadoDeRecomendaciones.innerHTML += "<li><div class='uk-panel'><img src='http://image.tmdb.org/t/p/w185"+ informacion.results[i].poster_path + "'><div class='uk-position-center uk-panel'></div></div></li>"
-
       }
     })
 

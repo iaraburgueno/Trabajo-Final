@@ -21,10 +21,9 @@
 </head>
 <body>
   <div class="contenedor-3">
+<section class="seccion-header">
 
     <!-- HEADER-->
-    <!-- navigation -->
-
     <nav class="pages-nav">
       <div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
       <div class="pages-nav__item"><a class="link link--page" href="#page-docu">Genres</a></div>
@@ -41,18 +40,16 @@
     <!-- /pages-stack -->
     <button class="menu-button"><span>Menu</span></button>
 
-
     <!-- HEADER-->
-
-
+</section>
   <!-- inicio detalle de series AGREGAR BOTON PARA VER EL TRAILER
   <div class="vertrailer">
   <a href="" class="vertrailer">Ver tráiler  </a>
 </div>-->
-  <div class="detalle-series">
+<section class="detalle-series">>
     <div class="poster-serie"></div>
     <div class="detalle">
-      <h1>Title:</h1>
+      <h1></h1>
       <p class="Generos">Genres: </p>
       <p class="Idioma">Original Language: </p>
       <p class="Sinopsis">Sinopsis: </p>
@@ -60,9 +57,12 @@
       <button id="boton-favoritos"type="button" class="btn btn-outline-primary">Agregar a Favoritos</button>
       <button id="boton-recomendaciones" type="button" class="btn btn-outline-primary">Ver Recomendaciones</button>
     </div>
-  </div>
+</section>
 
+
+<section id=seccion-recomendaciones>
   <!-- ICONOS -->
+
 <div class="contendor-logos">
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
@@ -72,9 +72,10 @@
   <!-- FIN ICONOS -->
   <!-- inicio carrousel series recomendadas-->
 
+
   <div id="carrousel-recomendaciones" class="ocultarBoton">
 
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+    <div id="div-rec" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
       <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid" id="recomendaciones"></ul>
 
@@ -83,7 +84,8 @@
 
     </div>
   </div>
-
+</div>
+</section>
   <!-- termina carrousel series recomendadas-->
 
   <footer>
