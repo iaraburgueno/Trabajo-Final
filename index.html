@@ -14,7 +14,7 @@
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
 
-  
+
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
 
@@ -33,7 +33,8 @@
       <section class="home-1">
         <div class="foto-index">
           <div class="titulo1">
-            <h1> Look for your series </h1>
+            <h1> Look for your </h1>
+            <h2> SERIES </h2>
           </div>
           <form class="buscador" action="resultados-buscador.html" method='get'>
               <input class="buscador" type="text" class="white" name="buscador" value="">
@@ -45,13 +46,13 @@
       <section class="info">
         <div class="info-toda">
          <div class="info1">
-           <p> The most popular series </p>
+           <p>The most popular series</p>
          </div>
          <div class="info2">
            <p> according to TMDB</p>
          </div>
          <div class="boton-desliza">
-           <a href="#my-id" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
+           <a href="#populares" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
          </div>
         </div>
         <div class="info-toda">
@@ -62,7 +63,7 @@
            <p> according to TMDB </p>
          </div>
          <div class="boton-desliza">
-           <a href="#my-id" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
+           <a href="#mayor-puntaje" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
          </div>
         </div>
         <div class="info-toda">
@@ -73,7 +74,7 @@
            <p> according to TMDB </p>
          </div>
          <div class="boton-desliza">
-           <a href="#my-id" uk-scroll><button type="button" class="btn btn-light">The series airing today</button></a>
+           <a href="#al-aire" uk-scroll><button type="button" class="btn btn-light">The series airing today</button></a>
          </div>
         </div>
 
@@ -81,7 +82,7 @@
       </section>
 
       <section class="home-2">
-        <div class="populares">
+        <div class="populares" id="populares">
           <p class="populares"> SERIES </p>
           <h2 class="populares"> Most popular </h2>
         </div>
@@ -101,7 +102,7 @@
           <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
         </div>
-        <div class="mayor-puntaje">
+        <div class="mayor-puntaje" id="mayor-puntaje">
           <p class="mayor-puntaje"> SERIES </p>
           <h2 class="mayor-puntaje"> Top rated </h2>
         </div>
@@ -119,7 +120,7 @@
           <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
         </div>
-        <div class="al-aire">
+        <div class="al-aire" id="al-aire">
           <p class="al-aire"> SERIES </p>
           <h2 class="al-aire"> Airing today </h2>
         </div>

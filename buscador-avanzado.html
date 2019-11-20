@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="css/buscador-avanzado.css">
     <script src="js/buscador-avanzado.js" charset="utf-8"></script>
 
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -27,37 +33,62 @@
 
 
          <section class="formulario">
-           <div class="form">
-           <p> Select the genre you want: </p>
-           <select class="form-control form-control-lg">
-             <option> Search </option>
-           </select>
-           </div>
+           <form class="ba" action="" method="get">
 
-           <div class="form">
-           <p> Select the genre you want to exclude: </p>
-           <select class="form-control form-control-lg">
-             <option> Search </option>
-           </select>
-           <br>
-           </div>
+            <div class="uncampo">
 
-           <div class="form">
-           <p> </p>
-           <select class="form-control form-control-lg">
-             <option> Search </option>
-           </select>
-           </div>
+            </div>
 
-           <div class="form">
-           <p> Release date: </p>
-           <select class="form-control form-control-lg">
-             <option> Search </option>
-           </select>
-           </div>
+             <div class="form">
+             <p> Select the genre you want: </p>
+             <select class="form-control form-control-lg selectGenres" name="selectOrder1">
+               <option value=""> Choose your option </option>
+             </select>
+             </div>
+
+             <div class="form">
+             <p> Select the genre you want to exclude: </p>
+             <select class="form-control form-control-lg selectWithoutGenres" name="selectOrder2">
+               <option value=""> Choose your option </option>
+             </select>
+             </div>
+
+             <div class="error">
+
+             </div>
+
+             <div class="form">
+             <p> Values:</p>
+             <select class="form-control form-control-lg" name="selectOrder">
+               <option value=''> Choose your option </option>
+               <option value="vote_average.desc"> Vote average desc. </option>
+               <option value="vote_average.asc"> Vote average asc. </option>
+               <option value="first_air_date.desc"> First air date desc. </option>
+               <option value="first_air_date.asc"> First air date asc. </option>
+               <option value="popularity.desc"> Popularity desc. </option>
+               <option value="popularity.asc"> Popularity asc. </option>
+             </select>
+             </div>
+
+             <div class="form">
+             <p> Year released: </p>
+               <select class="form-control form-control-lg selectYear" name="selectOrder3">
+                 <option value=""> Choose your option </option>
+             </select>
+             </div>
+
+             <div class="boton-enviar">
+               <button type="submit" class="btn btn-light">Send</button>
+
+             </div>
+
+           </form>
+           <a style="display:none" id="miScroll" href="#seriestodas" uk-scroll>Scrollear abajo</a>
+         </section>
+         <section id="seriestodas" class="seriestodas">
+
 
          </section>
-
 
        <footer>
          <nav class="nombres-header-logo">

@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* HOME */
+
 
 main.index {
 }
@@ -14,21 +14,26 @@ section.home-1 {
 div.foto-index {
   height: 500px;
   background-repeat: no-repeat;
-  background-color: rgb(242, 243, 244);
+  background-color: black;
   background-size: 100%;
 }
 
-div.titulo {
-  padding-top: 113px;
+div.titulo1 {
+  padding-top: 120px;
 }
 
-h1.titulo {
-  font-size: 48px;
-  font-family: "Permanent Marker";
+div.titulo1 h1{
+  font-family: "Josefin Sans";
   color: white;
-  margin-top: 55px;
+  font-size: 85px;
 }
 
+div.titulo1 h2 {
+  font-family: "Josefin Sans";
+  color: rgb(92, 74, 241);
+}
+
+/* HOME */
 section.home-2 {
   display: flex;
   /* flex-wrap: wrap; */
@@ -89,10 +94,11 @@ ul.uk-slider-nav li.uk-active a {
 
 div.populares {
   margin-top: 30px;
-  margin-left: 99px;
+  margin-left: 105px;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 25px;
 
 }
 
@@ -105,14 +111,16 @@ h2.populares {
   font-family: "Josefin Sans";
   font-weight: 700;
   color: white;
+  margin-top: 36px;
 }
 
 div.mayor-puntaje {
   margin-top: 30px;
-  margin-left: 99px;
+  margin-left: 105px;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 25px;
 }
 
 p.mayor-puntaje {
@@ -124,14 +132,16 @@ h2.mayor-puntaje {
   font-family: "Josefin Sans";
   font-weight: 700;
   color: white;
+  margin-top: 36px;
 }
 
 div.al-aire {
   margin-top: 30px;
-  margin-left: 99px;
+  margin-left: 105px;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 25px;
 }
 
 p.al-aire {
@@ -143,6 +153,7 @@ h2.al-aire {
   font-family: "Josefin Sans";
   font-weight: 700;
   color: white;
+  margin-top: 36px;
 }
 
 /* FOOTER */
@@ -308,12 +319,12 @@ p.tamano-letra {
 .imag{
   width: 40px;
   position: absolute;
-  top: 257px;
+  top: 32px;
   right:10px;
 }
 
 form.buscador {
-  padding-top: 250px;
+  padding-top: 23px;
   width: 500px;
   margin: 0 auto;
   font-family: "Josefin Sans";
@@ -327,15 +338,10 @@ input.buscador {
   opacity: 0.7;
 }
 
-div.titulo1 h1{
-  font-family: "Josefin Sans";
-  color: white;
-}
-
 /* INFO DEL HOME */
 
 section.info {
-  background-color: black;
+  background-color: rgb(242, 243, 244);
   height: 500px;
   display: flex;
   flex-wrap: wrap;
@@ -354,7 +360,7 @@ div.info-toda {
 }
 
 div.info1 {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
