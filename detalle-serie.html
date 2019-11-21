@@ -21,58 +21,29 @@
 </head>
 <body>
   <div class="contenedor-3">
-<section class="seccion-header">
-
-    <!-- HEADER-->
-    <nav class="pages-nav">
-      <div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-docu">Genres</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-manuals"> contact</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-software">Subscribe</a></div>
-      <div class="pages-nav__item"><a class="link link--page" href="#page-fav"> Favoritas</a>
-
-      </div>
-
-    </nav>
-    <!-- /navigation-->
-    <!-- pages stack -->
-
-    <!-- /pages-stack -->
-    <button class="menu-button"><span>Menu</span></button>
-
-    <!-- HEADER-->
-</section>
-  <!-- inicio detalle de series AGREGAR BOTON PARA VER EL TRAILER
-  <div class="vertrailer">
-  <a href="" class="vertrailer">Ver tráiler  </a>
-</div>-->
 <section class="detalle-series">>
     <div class="poster-serie"></div>
     <div class="detalle">
       <h1></h1>
-      <p class="Generos">Genres: </p>
+      <div class="Generos">Genres: </div>
       <p class="Idioma">Original Language: </p>
-      <p class="Sinopsis">Sinopsis: </p>
+      <p class="Sinopsis"> Synopsis: </p>
       <p class="Estreno">First air Date: </p>
-      <button id="boton-favoritos"type="button" class="btn btn-outline-primary">Agregar a Favoritos</button>
-      <button id="boton-recomendaciones" type="button" class="btn btn-outline-primary">Ver Recomendaciones</button>
+      <p class="Episodios">Episodes: </p>
+      <p class="Temporadas">Seasons: </p>
+      <p class="Puntaje"> Rating: </p>
+      <button id="boton-favoritos"type="button" class="btn btn-outline-primary">Favorite</button>
+      <button id="boton-recomendaciones" type="button" class="btn btn-outline-primary">Recommendatios</button>
+      <button id="boton-trailers" type="button" class="btn btn-outline-primary">Trailers</button>
     </div>
 </section>
+<div class="vertrailer" uk-lightbox>
 
-
-<section id=seccion-recomendaciones>
-  <!-- ICONOS -->
-
-<div class="contendor-logos">
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-instagram"></a>
 </div>
 
-  <!-- FIN ICONOS -->
+<section id=seccion-recomendaciones>
+
   <!-- inicio carrousel series recomendadas-->
-
-
   <div id="carrousel-recomendaciones" class="ocultarBoton">
 
     <div id="div-rec" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
@@ -109,7 +80,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js" charset="utf-8"></script>
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-<script src="js/prueba.js"></script>
 <script src="js/detalle-serie.js"></script>
 </body>
 </html>

@@ -30,7 +30,7 @@ window.onload = function() {
     var series = informacion.results
    // console.log(series);
 
-   for (var i = 0; i < series.length; i++) {
+   for (var i = 0; i < 10; i++) {
 
      document.querySelector(".carrousel-generos ul").innerHTML += `
      <a href="detalle-serie.html?idSerie=`+series[i].id+`"><li>

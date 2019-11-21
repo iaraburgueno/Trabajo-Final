@@ -49,17 +49,29 @@ window.onload = function(){
 
     var campoOrden3 = document.querySelector("select[name='selectOrder3']")
     var ordenDelUsuario3 = campoOrden3.options[campoOrden3.selectedIndex].value;
+    console.log("1 "+ordenDelUsuario1, "2 " +ordenDelUsuario2, "3 "+ordenDelUsuario3);
+
+    if (ordenDelUsuario == "" && ordenDelUsuario1 == "" && ordenDelUsuario2 == "" && ordenDelUsuario3 =="" ) {
+      console.log('entro en el [primero]');
+      document.querySelector(".error").innerHTML=
+      "<div class='alert alert-danger' role='alert'> Please select one option </div>"
+      setTimeout(function (){
+          document.querySelector(".alert").style.display = "none"
+      },3000)
+    }
+
+    else if (ordenDelUsuario1 !== "" && ordenDelUsuario2 !== "" && ordenDelUsuario1 == ordenDelUsuario2) {
+      console.log('entro en el [segundo]');
+      document.querySelector(".error").innerHTML=
+      "<div class='alert alert-danger' role='alert'> You cannot select and exclude the same genre </div>"
+
+      setTimeout(function (){
+          document.querySelector(".alert").style.display = "none"
+      },3000)
+
+    }else {
 
 
-if (campoOrden1 == "" || campoOrden2 == ""){
-  if (campoOrden == "" && campoOrden1 == "" && campoOrden2 == "" && campoOrden3 == ""){
-    document.querySelector(".uncampo").innerHTML += `<div class="uk-alert-danger not" uk-alert>
-      <a class="uk-alert-close" uk-close></a>
-      <p>please select at least one option</p>
-  </div>`;
-    setTimeout(function(){document.querySelector(".not").style.display = `none`}, 3000)
-
-  }else {
 
     fetch("https://api.themoviedb.org/3/discover/tv?api_key=9901ee414425659325dc091c288e33c9&language=en-US&sort_by=" + ordenDelUsuario + "&first_air_date_year="+ ordenDelUsuario3 + "&page=1&timezone=America%2FNew_York&with_genres="+ ordenDelUsuario1 + "&without_genres="+ ordenDelUsuario2 + "&include_null_first_air_dates=false")
     .then(function(response) {
@@ -96,7 +108,7 @@ if (campoOrden1 == "" || campoOrden2 == ""){
             <a href="detalle-serie.html?idSerie=`+ serie[i].id + `">
               <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-small serie-info">
                 <div class="serie-imagen">
-                  <img src="imagenes/notfound.gif">
+                  <img src="imagenes/notfound.png">
                 </div>
               </div>
             </a>
@@ -111,24 +123,7 @@ if (campoOrden1 == "" || campoOrden2 == ""){
 
 
     })
-
   }
-
-
-
-
-
-
-}else {
-  document.querySelector(".error").innerHTML += `<div class="uk-alert-danger notificacion" uk-alert>
-    <a class="uk-alert-close" uk-close></a>
-    <p>Por favor introduci un solo genero</p>
-</div>`;
-  setTimeout(function(){document.querySelector(".notificacion").style.display = `none`}, 3000)
-
-
-}
-
 
   }
 }

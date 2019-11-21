@@ -26,6 +26,9 @@ window.onload = function() {
 
   })
 
+
+
+
   fetch("https://api.themoviedb.org/3/tv/top_rated?api_key=66f27e806074e1d0e5d2270f17e219a1&page=1")
   .then(function(respuesta) {
     return respuesta.json();
@@ -53,6 +56,9 @@ window.onload = function() {
 
   })
 
+
+
+
   fetch("https://api.themoviedb.org/3/tv/airing_today?api_key=66f27e806074e1d0e5d2270f17e219a1&language=en-US")
   .then(function(respuesta) {
     return respuesta.json();
@@ -76,7 +82,30 @@ window.onload = function() {
          </div>
      </li>
      `
+
    }
 
   })
+
+  var buscador = document.getElementById("formu")
+  var lobuscado = document.getElementById("busca")
+
+  buscador.onsubmit = function(event){
+
+    if (lobuscado.value.length < 3) {
+      event.preventDefault();
+      document.querySelector(".error").innerHTML=
+      "<div class='alert alert-danger' role='alert'> Please enter at least three characters </div>"
+
+      setTimeout(function (){
+          document.querySelector(".alert").style.display = "none"
+      },3000)
+
+    }
+
+    else {
+
+    }
+  }
+
 }

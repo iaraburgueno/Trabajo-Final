@@ -2,9 +2,17 @@
   box-sizing: border-box;
 }
 
-
-
 main.index {
+  font-family: "Josefin Sans"
+}
+
+.alert-danger{
+  display: block;
+}
+
+div.error {
+ width: 500px;
+ margin-top: 10px;
 }
 
 section.home-1 {
@@ -16,16 +24,18 @@ div.foto-index {
   background-repeat: no-repeat;
   background-color: black;
   background-size: 100%;
-}
-
-div.titulo1 {
-  padding-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div.titulo1 h1{
   font-family: "Josefin Sans";
   color: white;
   font-size: 85px;
+  margin-top: 15px;
 }
 
 div.titulo1 h2 {
@@ -176,6 +186,7 @@ nav.nombres-header-logo ul {
   align-content: center;
   list-style-type: none;
   padding: 0px;
+  margin-top: 20px;
 }
 
 nav.nombres-header-logo ul li {
@@ -319,12 +330,11 @@ p.tamano-letra {
 .imag{
   width: 40px;
   position: absolute;
-  top: 32px;
+  top: 9px;
   right:10px;
 }
 
 form.buscador {
-  padding-top: 23px;
   width: 500px;
   margin: 0 auto;
   font-family: "Josefin Sans";
@@ -336,6 +346,7 @@ input.buscador {
   height: 50px;
   border-radius: 20px;
   opacity: 0.7;
+  font-size: 20px;
 }
 
 /* INFO DEL HOME */
@@ -348,23 +359,161 @@ section.info {
   justify-content: space-between;
   align-items: center;
   font-family: "Josefin Sans";
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-div.info-toda {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 div.info1 {
-  color: black;
-  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-div.info2 {
- color: white;
- font-size: 20px;
+div.logo1 {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* MEDIA QUERYS */
+
+/* tablet */
+
+@media (min-width: 414px) and (max-width: 970px){
+
+  div.titulo1 h2 {
+    font-size: 30px;
+  }
+
+  div.titulo1 h1 {
+    font-size: 50px;
+  }
+
+  input.buscador {
+    width: 300px;
+    height: 40px;
+  }
+
+  form.buscador {
+    position: relative;
+  }
+
+  .imag{
+    width: 35px;
+    position: absolute;
+    top: 5px;
+    right: 112px;
+  }
+
+  div.error {
+   width: 300px;
+   font-size: 15px;
+ }
+
+ div.error div.alert {
+   font-family: "Josefin Sans";
+ }
+
+ section.info {
+   padding-left: 100px;
+   padding-right: 100px;
+   height: 300px;
+ }
+
+ section.home-2 {
+ }
+
+ div.populares {
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 0px;
+ }
+
+ div.mayor-puntaje {
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 0px;
+ }
+
+ div.al-aire {
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 0px;
+ }
+
+}
+
+/* mobile */
+
+@media (max-width:450px){
+  div.populares {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+  }
+
+  div.mayor-puntaje {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+  }
+
+  div.al-aire {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+  }
+
+  div.info1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  div.boton-desliza {
+    margin-left: 12px;
+  }
+
+
+  section.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  div.carrousel-populares {
+    height: 547px;
+  }
+
+  div.uk-card-body {
+    padding: 20px 30px;
+
 }

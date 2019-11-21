@@ -17,7 +17,7 @@ window.onload = function() {
       // document.querySelector("h2").innerHTML = name;
       document.querySelector("#contenedor-favoritas").innerHTML +=
       `
-      <li>
+      <li><a> href="detalle-serie.html?idSerie=${}
         <img src='http://image.tmdb.org/t/p/original${informacion.poster_path}'>
       </li>
       `

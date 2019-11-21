@@ -4,7 +4,7 @@
 /* GENEROS */
 
 section.generos-info {
-  background-color: black;
+  background-color: rgb(242, 243, 244);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,7 @@ section.generos-info {
 div.nombre-serie p {
   font-family: "Josefin Sans";
   font-size: 25px;
-color: white;
+color: black;
 margin-top: 20px;
 }
 
@@ -23,6 +23,16 @@ div.nombre-favoritas h1 {
   font-size: 100px;
   color: rgb(92, 74, 241);
 }
+li.uk-active img {
+  width: 100vh;
+  height: 100%;
+}
+
+section.favoritas-seleccionadas{
+  padding: 42px 42px 42px;
+}
+
+
 
 
 /* FOOTER*/
