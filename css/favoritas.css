@@ -4,8 +4,7 @@
 /* GENEROS */
 
 section.generos-info {
-  background-color: black;
-  height: 320px;
+  background-color: rgb(242, 243, 244);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +14,8 @@ section.generos-info {
 div.nombre-serie p {
   font-family: "Josefin Sans";
   font-size: 25px;
-color: white;
+color: black;
+margin-top: 20px;
 }
 
 div.nombre-favoritas h1 {
@@ -23,91 +23,54 @@ div.nombre-favoritas h1 {
   font-size: 100px;
   color: rgb(92, 74, 241);
 }
+li.uk-active img {
+  width: 100vh;
+  height: 100%;
+}
 
-section.generos-todos {
+section.favoritas-seleccionadas{
+  padding: 42px 42px 42px;
+}
+
+
+
+
+/* FOOTER*/
+footer nav.nombres-header-logo {
+  background-color: rgb(81, 83, 86);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: rgb(34, 34, 35);
-  padding-top: 100px;
-  padding-right: 200px;
-  padding-left: 200px;
-  padding-bottom: 160px;
-}
+  font-size: 14px;
 
-section.generos-todos div.generos div {
-  width: 230px;
-  height: 305px;
-  margin-bottom: 38px;
-  margin-right: 17px;
+}
+nav.nombres-header-logo ul {
   font-family: "Josefin Sans";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   color: white;
+  font-weight: bold;
+  align-content: center;
+  list-style-type: none;
+  padding: 0px;
 }
 
-.uk-text-center {
-  margin-top: 50%;
+nav.nombres-header-logo ul li {
+  padding: 0px 12px 0 10px;
 }
 
-div.aventura {
-  background-image: url('../imagenes/aventura.jpg');
-  background-size: cover;
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
+	text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
 }
 
-div.animacion {
-  background-image: url('../imagenes/animacion.jpg');
-  background-size: cover;
+nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
+  text-decoration: underline rgb(92, 74, 241);
 }
 
-div.comedia {
-  background-image: url('../imagenes/comedia.jpg');
-  background-size: 100%;
-}
-
-div.crimen {
-  background-image: url('../imagenes/crimen.jpg');
-  background-size: 100%;
-}
-
-div.documental {
-  background-image: url('../imagenes/documental.jpg');
-  background-size: 100%;
-}
-
-div.drama {
-  background-image: url('../imagenes/drama.jpg');
-  background-size: 100%;
-}
-
-div.familiares {
-  background-image: url('../imagenes/familiares.jpg');
-  background-size: 100%;
-}
-
-div.misterio {
-  background-image: url('../imagenes/misterio.jpg');
-  background-size: 100%;
-}
-
-div.romance {
-  background-image: url('../imagenes/romance.jpeg');
-  background-size: 100%;
-}
-
-div.ciencia-ficcion {
-  background-image: url('../imagenes/ciencia-ficcion.jpg');
-  background-size: cover;
-}
-
-div.occidentales {
-  background-image: url('../imagenes/occidentales.jpg');
-  background-size: 100%;
-}
-
-div.guerra {
-  background-image: url('../imagenes/guerra.jpg');
-  background-size: 100%;
-}
-
-p.tamano-letra {
-  font-size: 20px!important;
+ul.ul-menu-2 {
+  margin-top: 20px;
 }
