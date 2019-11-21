@@ -2,6 +2,40 @@
   box-sizing: border-box;
 }
 
+section.titulos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+
+section.carrousel {
+  background-color: rgb(242, 243, 244);
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+div.titulo-genero h1 {
+  font-family: "Josefin Sans";
+  font-size: 80px;
+}
+
+div.serie-nombre p {
+  font-family: "Josefin Sans";
+  font-size: 25px;
+  color: rgb(92, 74, 241);
+}
+
+
+
+
+
+
+
 /* FOOTER */
 
 footer nav.nombres-header-logo {
@@ -44,23 +78,3 @@ ul.ul-menu-2 {
 }
 
 /* FIN DEL FOOTER */
-
-
-
-/* div.titulo-genero {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 30px;
-}
-
-div.carrousel-generos {
-  margin-bottom: 100px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-main {
-  margin-bottom: 80px;
-} */

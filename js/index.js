@@ -76,7 +76,32 @@ window.onload = function() {
          </div>
      </li>
      `
+
    }
 
   })
+  var buscador = document.getElementById("formu")
+  var lobuscado = document.getElementById("busca")
+
+  buscador.onsubmit = function(event){
+
+    if (lobuscado.value.length < 3) {
+      event.preventDefault();
+      document.querySelector(".error").innerHTML=
+      "<div class='alert alert-danger' role='alert'> Please enter at least three characters </div>"
+
+      setTimeout(function (){
+          document.querySelector(".alert").style.display = "none"
+      },3000)
+
+
+
+    }
+
+    else {
+
+    }
+  }
+
+
 }

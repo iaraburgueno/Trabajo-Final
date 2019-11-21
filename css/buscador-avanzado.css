@@ -6,6 +6,7 @@ main.buscador {
   font-family: "Josefin Sans";
 }
 
+
 section.formulario {
   background-color: rgb(34, 34, 35);
   padding-left: 200px;
@@ -34,6 +35,16 @@ section.buscador-titulo {
 
 section.buscador-titulo div h1 {
   font-size: 100px;
+  font-family: "Josefin Sans";
+}
+
+div.buscador-titulo h1 {
+  color: white;
+}
+
+div.serie-nombre p {
+  color: rgb(92, 74, 241);
+  font-size: 25px;
 }
 
 div.boton-enviar {
@@ -43,7 +54,23 @@ div.boton-enviar {
     justify-content: flex-end;
 }
 
+select.form-control-lg {
+  font-size: 16px;
+}
 
+div.form p {
+  font-size: 20px;
+}
+
+div.boton-enviar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.error {
+  height: 38px;
+}
 /* SERIES BUSCADAS */
 section.seriestodas {
   display: flex;
@@ -51,7 +78,8 @@ section.seriestodas {
   flex-wrap: wrap;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 150px;
   background-color: rgb(242, 243, 244);
   color: white;
   display: none;
@@ -60,7 +88,6 @@ section.seriestodas {
 div.titulo-buscado {
   background-color: black;
   color: white;
-  display: flex;
 
 }
 
@@ -68,7 +95,6 @@ section.seriestodas div.serie-buscador div.serie-info {
   width: 230px;
   height: 305px;
   margin-bottom: 20px;
-  margin-right: 17px;
 }
 
 h5.serie-info {
@@ -84,10 +110,6 @@ h1.titulo-buscado {
   color: white;
 }
 
-div.serie-imagen {
-
-}
-
 div.uk-card-body {
   padding: 0 !important;
   overflow: hidden;
@@ -95,9 +117,6 @@ div.uk-card-body {
 
 }
 
-div.serie-buscador {
-    margin-bottom: 40px !important;
-}
 
 div.uk-card-body img {
   width: 100% !important;

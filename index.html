@@ -33,50 +33,55 @@
       <section class="home-1">
         <div class="foto-index">
           <div class="titulo1">
-            <h1> Look for your </h1>
             <h2> SERIES </h2>
+            <h1> Search here </h1>
           </div>
-          <form class="buscador" action="resultados-buscador.html" method='get'>
-              <input class="buscador" type="text" class="white" name="buscador" value="">
+          <form class="buscador formulario"  id="formu" action="resultados-buscador.html" method='get'>
+              <input class="buscador white" id="busca" type="text" name="buscador" value="">
               <input type="submit" class="buscador-lupa" name="" value="">
               <img class="imag" src="imagenes/Lupa.png" alt="">
+          </form>
+          <div class="error">
+
+          </div>
         </div>
       </section>
 
       <section class="info">
-        <div class="info-toda">
-         <div class="info1">
-           <p>The most popular series</p>
+
+        <div class="info1">
+          <div class="logo1 uk-animation-toggle" tabindex="0">
+            <div class="uk-animation-shake">
+            <img src="imagenes/logo-populares.svg" alt="">
+            </div>
+          </div>
+         <div class="boton-desliza">
+           <a href="#populares" uk-scroll><button type="button" class="btn btn-light"> Most pupular series </button></a>
          </div>
-         <div class="info2">
-           <p> according to TMDB</p>
+         </div>
+
+         <div class="info1">
+           <div class="logo1 uk-animation-toggle" tabindex="0">
+             <div class="uk-animation-shake">
+             <img src="imagenes/mayor-puntaje.svg" alt="">
+             </div>
+           </div>
+         <div class="boton-desliza">
+           <a href="#mayor-puntaje" uk-scroll><button type="button" class="btn btn-light"> Top rated series </button></a>
+         </div>
+       </div>
+
+       <div class="info1">
+         <div class="logo1 uk-animation-toggle" tabindex="0">
+           <div class="uk-animation-shake">
+           <img src="imagenes/al-aire.svg" alt="">
+           </div>
          </div>
          <div class="boton-desliza">
-           <a href="#populares" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
+           <a href="#al-aire" uk-scroll><button type="button" class="btn btn-light"> Series airing today </button></a>
          </div>
-        </div>
-        <div class="info-toda">
-         <div class="info1">
-           <p> The most rated series</p>
-         </div>
-         <div class="info2">
-           <p> according to TMDB </p>
-         </div>
-         <div class="boton-desliza">
-           <a href="#mayor-puntaje" uk-scroll><button type="button" class="btn btn-light">Scroll</button></a>
-         </div>
-        </div>
-        <div class="info-toda">
-         <div class="info1">
-           <p>  </p>
-         </div>
-         <div class="info2">
-           <p> according to TMDB </p>
-         </div>
-         <div class="boton-desliza">
-           <a href="#al-aire" uk-scroll><button type="button" class="btn btn-light">The series airing today</button></a>
-         </div>
-        </div>
+       </div>
+
 
 
       </section>
