@@ -68,15 +68,7 @@ div.corte {
 }
 
 /* ICONOS*/
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
 
-}
 
 /* BODY*/
 div.contenedor-3 {
@@ -103,7 +95,10 @@ div.Generos {
 
 div.Generos a  {
   margin-left: 10px;
+  color: rgb(92,74,241);
 }
+
+
 
 div.detalle {
   font-size: 16px;
@@ -118,7 +113,7 @@ div.detalle {
 
 div.detalle h1 {
   font-family:"Josefin Sans";
-  color: #007bff;
+  color: rgb(92,74,241);
   text-transform: uppercase;
   font-size: 3rem;
 }
