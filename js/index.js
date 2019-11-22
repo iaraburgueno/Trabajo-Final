@@ -17,7 +17,7 @@ window.onload = function() {
              </div>
              <div class="uk-card-body">
                  <h3 class="uk-card-title tituloCarrousel">` + series[i].name + `</h3>
-                 <p>Puntaje: `+ series[i].vote_average +`</p>
+                 <p> Average: `+ series[i].vote_average +`</p>
              </div>
          </div>
      </li>
@@ -47,7 +47,7 @@ window.onload = function() {
              </div>
              <div class="uk-card-body">
                  <h3 class="uk-card-title tituloCarrousel">` + series[i].name + `</h3>
-                 <p>Puntaje: `+ series[i].vote_average +`</p>
+                 <p> Average: `+ series[i].vote_average +`</p>
              </div>
          </div>
 
@@ -77,7 +77,7 @@ window.onload = function() {
              </div>
              <div class="uk-card-body">
                  <h3 class="uk-card-title tituloCarrousel">` + series[i].name + `</h3>
-                 <p>Puntaje: `+ series[i].vote_average +`</p>
+                 <p> Average: `+ series[i].vote_average +`</p>
              </div>
          </div>
      </li>
