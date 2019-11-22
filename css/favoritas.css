@@ -64,7 +64,7 @@ header nav ul li a.colorR:hover {
 /* GENEROS */
 
 section.generos-info {
-  background-color: rgb(242, 243, 244);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,14 +74,15 @@ section.generos-info {
 div.nombre-serie p {
   font-family: "Josefin Sans";
   font-size: 25px;
-color: black;
-margin-top: 20px;
+  margin-top: 20px;
+  color: rgb(92, 74, 241);
 }
 
 div.nombre-favoritas h1 {
   font-family: "Josefin Sans";
   font-size: 100px;
-  color: rgb(92, 74, 241);
+  color: black;
+
 }
 li.uk-active img {
   width: 100vh;
@@ -90,6 +91,7 @@ li.uk-active img {
 
 section.favoritas-seleccionadas{
   padding: 42px 42px 42px;
+  background-color: rgb(242, 243, 244);
 }
 
 
@@ -138,6 +140,92 @@ footer nav ul {
   margin-bottom: 0px;
 }
 
-
-
 /* FIN DEL FOOTER*/
+
+/* MEDIA QUERYS */
+
+/* tablet */
+
+@media (min-width: 700px) and (max-width: 970px){
+
+  div.nombre-favoritas h1 {
+      font-family: "Josefin Sans";
+      font-size: 86px;
+      color: black;
+  }
+
+
+
+
+
+}
+
+/*intermedio*/
+@media (min-width: 450px) and (max-width: 700px){
+  div.nombre-favoritas h1 {
+      font-family: "Josefin Sans";
+      font-size: 71px;
+      color: black;
+  }
+
+  div.nombre-serie p {
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgb(92, 74, 241);
+}
+
+
+
+
+}
+
+
+/* mobile */
+
+@media (max-width:450px){
+
+  footer nav ul li {
+    font-size: 14px;
+  }
+
+  header nav ul li {
+    font-size: 14px;
+  }
+
+  img.logoTMDB {
+      width: 41px;
+  }
+
+  ul.homeB {
+    padding: 0px
+  }
+
+  header nav {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      font-family: "Josefin Sans";
+      align-items: baseline;
+      padding-top: 9px;
+      padding-right: 5px;
+      padding-left: 5px;
+      background-color: rgb(242, 243, 244);
+      height: 75px;
+  }
+
+  div.nombre-serie p {
+    font-family: "Josefin Sans";
+    font-size: 19px;
+    margin-top: 20px;
+    color: rgb(92, 74, 241);
+}
+
+div.nombre-favoritas h1 {
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    color: black;
+}
+
+}

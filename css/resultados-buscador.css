@@ -2,6 +2,112 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
+
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Josefin Sans";
+  align-items: baseline;
+  padding-top: 9px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: rgb(242, 243, 244);
+  height: 75px;
+}
+
+nav ul.homeA li {
+  list-style-type: none;
+}
+
+nav ul.homeB li {
+  list-style-type: none;
+}
+
+img.logo-home {
+  width: 60px;
+}
+
+nav ul.homeA {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+ul li.ir-generos {
+  margin-left: 20px;
+}
+
+ul li.ir-buscador-avanzado {
+  margin-left: 20px;
+}
+
+nav ul.homeB {
+  padding-right: 10px;
+}
+
+header nav ul li a.colorR {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a.colorR:hover {
+  color: rgb(92, 74, 241);
+}
+
+/* FIN DEL HEADER */
+
+/* FOOTER */
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Josefin Sans";
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  background-color: black;
+}
+
+footer nav ul li {
+  list-style-type: none;
+}
+
+img.logoTMDB {
+  width: 50px;
+}
+
+nav ul.homeC {
+  padding-left: 0px;
+}
+
+nav ul.homeD {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+li.nombre1 {
+  margin-right: 20px;
+}
+
+footer nav ul {
+  margin-bottom: 0px;
+}
+
+
+
+/* FIN DEL FOOTER*/
+
 main.buscador {
   font-family: "Josefin Sans";
 }
@@ -159,3 +265,18 @@ ul.nombres {
 }
 
 /* FIN DEL FOOTER*/
+
+@media (min-width: 450px) and (max-width: 740px) {
+
+  h1.titulo-buscado {
+    margin: auto;
+    font-family: "Josefin Sans";
+    color: black;
+    font-size: 50px;
+}
+
+input.buscador {
+    margin-left: 20px;
+}
+
+}

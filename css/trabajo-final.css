@@ -443,7 +443,7 @@ div.logo1 {
 
 /* tablet */
 
-@media (min-width: 414px) and (max-width: 970px){
+@media (min-width: 700px) and (max-width: 970px){
 
   div.titulo1 h2 {
     font-size: 30px;
@@ -514,6 +514,96 @@ div.logo1 {
    align-items: center;
    margin-left: 0px;
  }
+
+ section.generos-todos {
+   padding-right: 104px;
+     padding-left: 129px;
+   }
+
+
+
+}
+
+/*intermedio*/
+@media (min-width: 450px) and (max-width: 700px){
+
+section.info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+div.info1 {
+  margin-bottom: 20px;
+}
+
+div.titulo1 h2 {
+  font-size: 30px;
+}
+
+div.titulo1 h1 {
+  font-size: 50px;
+}
+
+input.buscador {
+  width: 300px;
+  height: 40px;
+  font-size: 17px;
+}
+
+form.buscador {
+  position: relative;
+}
+
+.imag{
+  width: 35px;
+  position: absolute;
+  top: 5px;
+  right: 112px;
+}
+
+div.error {
+ width: 300px;
+ font-size: 15px;
+}
+
+div.error div.alert {
+ font-family: "Josefin Sans";
+}
+
+div.populares {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+
+div.mayor-puntaje {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+
+div.al-aire {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+
+
+
 
 
 
@@ -628,13 +718,51 @@ div.foto-index {
   align-items: center;
 }
 
-section.generos-todos {
+footer nav ul li {
+  font-size: 14px;
+}
+
+header nav ul li {
+  font-size: 14px;
+}
+
+img.logoTMDB {
+    width: 41px;
+}
+
+ul.homeB {
+  padding: 0px
+}
+
+header nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgb(34, 34, 35);
-    padding-top: 100px;
-    padding-bottom: 160px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Josefin Sans";
+    align-items: baseline;
+    padding-top: 9px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgb(242, 243, 244);
+    height: 75px;
+}
+
+div.nombre-serie p {
+    font-family: "Josefin Sans";
+    font-size: 23px;
+    color: rgb(92, 74, 241);
+}
+
+div.nombre-generos h1 {
+    font-family: "Josefin Sans";
+    font-size: 84px;
+    color: white;
+}
+
+section.generos-todos {
+    padding-right: 200px;
+    padding-left: 76px;
 }
 
 }
