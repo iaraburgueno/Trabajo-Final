@@ -47,6 +47,7 @@ fetch ("https://api.themoviedb.org/3/tv/"+ codigoDeSerie + "/videos?api_key=66f2
     var trailers = document.querySelector (".vertrailer")
   botonTrailer.onclick = function(){
     trailers.classList.toggle("ocultarBoton2")
+    
   }
 }
 

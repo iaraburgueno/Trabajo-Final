@@ -19,10 +19,24 @@
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
 </head>
+<header>
+      <nav>
+        <ul class="homeA">
+        <li><a href="index.html"><img src="imagenes/logoiara.png" class="logo-home" alt=""> </a></li>
+        <li class="ir-generos"><a href="generos.html" class="colorR">  Genres </a></li>
+        <li class="ir-buscador-avanzado"><a href="buscador-avanzado.html" class="colorR"> Smart search </a></li>
+        </ul>
+        <ul class="homeB">
+        <li "ir-favoritos"> <a href="favoritas.html" class="colorR"> My favourites </a> </li>
+        </ul>
+      </nav>
+
+    </header>
 <body>
+
   <div class="contenedor-3">
 <section class="detalle-series">>
-    <div class="poster-serie"></div>
+    <div class="poster-serie" id="fotoSerie"></div>
     <div class="detalle">
       <h1></h1>
       <div class="Generos">Genres: </div>
@@ -37,7 +51,7 @@
       <button id="boton-trailers" type="button" class="btn btn-outline-primary">Trailers</button>
     </div>
 </section>
-<div class="vertrailer" uk-lightbox>
+<div class="vertrailer ocultarBoton2" uk-lightbox>
 
 </div>
 
@@ -60,19 +74,19 @@
   <!-- termina carrousel series recomendadas-->
 
   <footer>
-    <nav class="nombres-header-logo">
-      <ul class="ul-menu-2">
-        <li class="li-menu-2"><a class="color-green" href="index.html">Home</a></li>
-        <li class="li-menu-2"><a class="color-green" href="generos.html">Genres</a></li>
-        <li class="li-menu-2"><a class="color-green" href="buscador-avanzado.html">Smart search</a></li>
-        <li class="li-menu-2"><a class="color-green" href="favoritos.html">Favourites</a></li>
-      </ul>
-      <ul class="nombres">
-        <li class="nombres"> Lucila Cabello </li>
-        <li class="nombres"> Iara Burgueño </li>
-      </ul>
-    </nav>
-  </footer>
+        <nav>
+          <ul class="homeC">
+            <a href="https://www.themoviedb.org/?language=es-ES"><li> <img class="logoTMDB" src="imagenes/logoTMDB.png" alt=""> </li></a>
+          </ul>
+          <ul class="homeD">
+            <li class="nombre1"> Lucila Cabello </li>
+            <li class="nombre2"> Iara Burgueño </li>
+          </ul>
+
+
+        </nav>
+
+      </footer>
 
 </div>
 

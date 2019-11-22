@@ -1,6 +1,66 @@
 * {
   box-sizing: border-box;
 }
+
+
+/* HEADER */
+
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Josefin Sans";
+  align-items: baseline;
+  padding-top: 9px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: rgb(242, 243, 244);
+  height: 75px;
+}
+
+nav ul.homeA li {
+  list-style-type: none;
+}
+
+nav ul.homeB li {
+  list-style-type: none;
+}
+
+img.logo-home {
+  width: 60px;
+}
+
+nav ul.homeA {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+ul li.ir-generos {
+  margin-left: 20px;
+}
+
+ul li.ir-buscador-avanzado {
+  margin-left: 20px;
+}
+
+nav ul.homeB {
+  padding-right: 10px;
+}
+
+header nav ul li a.colorR {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a.colorR:hover {
+  color: rgb(92, 74, 241);
+}
+
+/* FIN DEL HEADER */
 /* GENEROS */
 
 section.generos-info {
@@ -35,42 +95,49 @@ section.favoritas-seleccionadas{
 
 
 
-/* FOOTER*/
-footer nav.nombres-header-logo {
-  background-color: rgb(81, 83, 86);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  font-size: 14px;
+/* FOOTER */
 
-}
-nav.nombres-header-logo ul {
-  font-family: "Josefin Sans";
+footer nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  color: white;
-  font-weight: bold;
-  align-content: center;
-  list-style-type: none;
-  padding: 0px;
-}
-
-nav.nombres-header-logo ul li {
-  padding: 0px 12px 0 10px;
-}
-
-nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green {
-	text-decoration: none;
-  color: white;
+  justify-content: space-between;
+  align-items: baseline;
   font-family: "Josefin Sans";
-  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  background-color: black;
 }
 
-nav.nombres-header-logo ul.ul-menu-2 li.li-menu-2 a.color-green:hover {
-  text-decoration: underline rgb(92, 74, 241);
+footer nav ul li {
+  list-style-type: none;
 }
 
-ul.ul-menu-2 {
-  margin-top: 20px;
+img.logoTMDB {
+  width: 50px;
 }
+
+nav ul.homeC {
+  padding-left: 0px;
+}
+
+nav ul.homeD {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+li.nombre1 {
+  margin-right: 20px;
+}
+
+footer nav ul {
+  margin-bottom: 0px;
+}
+
+
+
+/* FIN DEL FOOTER*/
