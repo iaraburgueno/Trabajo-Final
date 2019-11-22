@@ -62,31 +62,25 @@ header nav ul li a.colorR:hover {
 
 /* FIN DEL HEADER */
 
+
 div.corte {
   background-color: rgb(218, 244, 0);
   height: 50px;
 }
-
-/* ICONOS*/
-
 
 /* BODY*/
 div.contenedor-3 {
 background-color: #212529
 }
 
+
+/* BODY*/
+@media (min-width: 400px)and (max-width:1450px){
 section.detalle-series {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 height: 685px;
-}
-
-
-div.poster{
-  width: 100%;
-  margin-top: 20px;
-
 }
 
 div.Generos {
@@ -97,8 +91,7 @@ div.Generos a  {
   margin-left: 10px;
   color: rgb(92,74,241);
 }
-
-
+}
 
 div.detalle {
   font-size: 16px;
@@ -118,9 +111,11 @@ div.detalle h1 {
   font-size: 3rem;
 }
 
+
 div.poster-serie {
 width: 25%;
 margin-left:-53px;
+  margin-top: 50px
 }
 
 div img {
@@ -129,27 +124,29 @@ div img {
   margin-top: 42px;
 }
 
-
-
-
-
-/* EVENTO DE CLICK BOTON*/
+/* BOTONES */
 .ocultarBoton, .ocultarBoton2 {
   display: none;
 }
 
+button.boton-favoritos {
+  margin-left: 20px;
+}
 
+/* TRAILERS*/
 
 div.vertrailer{
   margin-left: 40%;
   padding: 40px;
 }
 
-
-
-button.boton-favoritos {
-  margin-left: 20px;
+.vertrailer a {
+  background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
 }
+
+/* RECOMENDACIONES*/
 
 #seccion-recomendaciones {
   background-color: rgb(242, 243, 244);
@@ -160,27 +157,13 @@ button.boton-favoritos {
 
 }
 
-#fotoSerie {
-  margin-top: 50px;
-}
 
-.vertrailer a {
-  background-color: transparent;
-    color: #007bff;
-    border: 2px solid #007bff;
-}
+/* uikit*/
 
 ul.uk-slider-items {
   margin-bottom:90px;
   justify-content: center;
   margin-left: 113px;
-}
-
-
-html.js,
-.js body {
-	/* overflow: hidden; */
-	min-height: 100vh;
 }
 
 
@@ -226,7 +209,3 @@ li.nombre1 {
 footer nav ul {
   margin-bottom: 0px;
 }
-
-
-
-/* FIN DEL FOOTER*/
